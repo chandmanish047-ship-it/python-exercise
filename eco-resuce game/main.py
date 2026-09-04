@@ -9,14 +9,14 @@ print("your mission is to protect helsinki city from pollution:")
 name = input("enter your name:")
 age = int(input("enter the age:"))
 
-if age<18:
+if age<12:
     print("You are a minor.")
     print("you can't play this game:")
     print("Game closed***")
     exit()
 else:
     print("welcome", name)
-    print("your age", age, "years old")
+    print("your age:",age)
     print("you can play this game:")
 
 running = True
