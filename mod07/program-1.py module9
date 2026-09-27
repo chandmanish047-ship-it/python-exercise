@@ -1,0 +1,9 @@
+class car:
+    def __init__(self,registeration_number,speed):
+        self.registeration_number=registeration_number
+        self.speed=speed
+        self.currentspeed=0
+        self.travelleddistance=0
+car1=car("ab321","154")
+print(car1.registeration_number)
+print(car1.speed)
